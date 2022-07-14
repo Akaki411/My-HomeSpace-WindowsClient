@@ -5,10 +5,10 @@ const createWindow = () => {
     resizable: true,
     width: 1920,
     height: 1080,
-    icon: __dirname + '/img/logo.png',
+//    icon: __dirname + '/img/logo.png',
     autoHideMenuBar: true,
     frame: false,
-    show: false
+    fullscreen: true
   })
 
   win.loadURL('http://localhost:3000/')
