@@ -1,0 +1,14 @@
+{
+  "name": "smart_home_windows",
+  "version": "1.0.0",
+  "description": "Windows client",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "author": "AKovalysko",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.8"
+  }
+}
